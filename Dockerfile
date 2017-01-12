@@ -3,6 +3,7 @@ FROM ubuntu:16.04
 # Update and Install Packages
 RUN apt-get update -y && apt-get install -y \
     ant \
+    git \
     openssh-client \
     rubygems \
     wget
