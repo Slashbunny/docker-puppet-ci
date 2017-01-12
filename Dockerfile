@@ -5,7 +5,7 @@ RUN apt-get update -y && apt-get install -y \
     ant \
     openssh-client \
     rubygems \
-    wget \
+    wget
 
 # Install Official Puppet Repository
 RUN wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb && \
