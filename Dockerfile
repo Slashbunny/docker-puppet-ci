@@ -14,7 +14,7 @@ RUN wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb && \
     rm puppetlabs-release-pc1-xenial.deb
 
 # Install Puppet
-RUN apt-get update -y && apt-get install -y puppet
+RUN apt-get update -y && apt-get install -y puppet-agent
 
 # Install puppet-lint
 RUN gem install puppet-lint
